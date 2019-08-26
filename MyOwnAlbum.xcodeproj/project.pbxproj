@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660CC26A2313F1FA003AB894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC2692313F1FA003AB894 /* AppDelegate.swift */; };
+		660CC2712313F1FC003AB894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660CC2702313F1FC003AB894 /* Assets.xcassets */; };
+		660CC2742313F1FC003AB894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660CC2722313F1FC003AB894 /* LaunchScreen.storyboard */; };
+		660CC27E231406FF003AB894 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC27C231406FF003AB894 /* LoginViewController.swift */; };
+		660CC27F231406FF003AB894 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660CC27D231406FF003AB894 /* LoginViewController.xib */; };
+		660CC28423140740003AB894 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC28323140740003AB894 /* ModuleBuilder.swift */; };
+		660CC28623140777003AB894 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC28523140777003AB894 /* User.swift */; };
+		660CC2882314084A003AB894 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC2872314084A003AB894 /* Album.swift */; };
+		660CC28C23140B85003AB894 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC28A23140B85003AB894 /* AlbumViewController.swift */; };
+		660CC28D23140B85003AB894 /* AlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660CC28B23140B85003AB894 /* AlbumViewController.xib */; };
+		660CC29123140BFE003AB894 /* AlbumTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC28F23140BFE003AB894 /* AlbumTableCell.swift */; };
+		660CC29223140BFE003AB894 /* AlbumTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660CC29023140BFE003AB894 /* AlbumTableCell.xib */; };
+		660CC29523140D12003AB894 /* AlbumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC29423140D12003AB894 /* AlbumData.swift */; };
+		660CC29723140F48003AB894 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC29623140F48003AB894 /* UserData.swift */; };
+		660CC29B2314109A003AB894 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC2992314109A003AB894 /* ProfileViewController.swift */; };
+		660CC29C2314109A003AB894 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660CC29A2314109A003AB894 /* ProfileViewController.xib */; };
+		660CC29F2314137A003AB894 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC29E2314137A003AB894 /* HomeTabBarViewController.swift */; };
+		660CC2A2231414C9003AB894 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC2A0231414C9003AB894 /* PhotosViewController.swift */; };
+		660CC2A3231414C9003AB894 /* PhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660CC2A1231414C9003AB894 /* PhotosViewController.xib */; };
+		660CC2A723141521003AB894 /* PhotosCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CC2A523141521003AB894 /* PhotosCollectionCell.swift */; };
+		660CC2A823141521003AB894 /* PhotosCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660CC2A623141521003AB894 /* PhotosCollectionCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		660CC2662313F1FA003AB894 /* MyOwnAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOwnAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		660CC2692313F1FA003AB894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		660CC2702313F1FC003AB894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		660CC2732313F1FC003AB894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		660CC27C231406FF003AB894 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		660CC27D231406FF003AB894 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		660CC28323140740003AB894 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		660CC28523140777003AB894 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		660CC2872314084A003AB894 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		660CC28A23140B85003AB894 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		660CC28B23140B85003AB894 /* AlbumViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumViewController.xib; sourceTree = "<group>"; };
+		660CC28F23140BFE003AB894 /* AlbumTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableCell.swift; sourceTree = "<group>"; };
+		660CC29023140BFE003AB894 /* AlbumTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumTableCell.xib; sourceTree = "<group>"; };
+		660CC29423140D12003AB894 /* AlbumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumData.swift; sourceTree = "<group>"; };
+		660CC29623140F48003AB894 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		660CC2992314109A003AB894 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		660CC29A2314109A003AB894 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		660CC29E2314137A003AB894 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		660CC2A0231414C9003AB894 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		660CC2A1231414C9003AB894 /* PhotosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosViewController.xib; sourceTree = "<group>"; };
+		660CC2A523141521003AB894 /* PhotosCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionCell.swift; sourceTree = "<group>"; };
+		660CC2A623141521003AB894 /* PhotosCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosCollectionCell.xib; sourceTree = "<group>"; };
+		660CC2A923141A94003AB894 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660CC2632313F1FA003AB894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		660CC25D2313F1FA003AB894 = {
+			isa = PBXGroup;
+			children = (
+				660CC2682313F1FA003AB894 /* MyOwnAlbum */,
+				660CC2672313F1FA003AB894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		660CC2672313F1FA003AB894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660CC2662313F1FA003AB894 /* MyOwnAlbum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660CC2682313F1FA003AB894 /* MyOwnAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				660CC2A923141A94003AB894 /* Info.plist */,
+				660CC29323140D04003AB894 /* Data */,
+				660CC28223140732003AB894 /* Model */,
+				660CC28023140723003AB894 /* Utils */,
+				660CC28123140729003AB894 /* Modules */,
+				660CC2692313F1FA003AB894 /* AppDelegate.swift */,
+				660CC2702313F1FC003AB894 /* Assets.xcassets */,
+				660CC2722313F1FC003AB894 /* LaunchScreen.storyboard */,
+			);
+			path = MyOwnAlbum;
+			sourceTree = "<group>";
+		};
+		660CC27B231406EB003AB894 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				660CC27C231406FF003AB894 /* LoginViewController.swift */,
+				660CC27D231406FF003AB894 /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		660CC28023140723003AB894 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				660CC28323140740003AB894 /* ModuleBuilder.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		660CC28123140729003AB894 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				660CC29D23141307003AB894 /* PhotosViewController */,
+				660CC2982314107A003AB894 /* ProfileViewController */,
+				660CC28923140B65003AB894 /* AlbumViewController */,
+				660CC27B231406EB003AB894 /* LoginViewController */,
+				660CC29E2314137A003AB894 /* HomeTabBarViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		660CC28223140732003AB894 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				660CC28523140777003AB894 /* User.swift */,
+				660CC2872314084A003AB894 /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		660CC28923140B65003AB894 /* AlbumViewController */ = {
+			isa = PBXGroup;
+			children = (
+				660CC28E23140BE7003AB894 /* AlbumTableCell */,
+				660CC28A23140B85003AB894 /* AlbumViewController.swift */,
+				660CC28B23140B85003AB894 /* AlbumViewController.xib */,
+			);
+			path = AlbumViewController;
+			sourceTree = "<group>";
+		};
+		660CC28E23140BE7003AB894 /* AlbumTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				660CC28F23140BFE003AB894 /* AlbumTableCell.swift */,
+				660CC29023140BFE003AB894 /* AlbumTableCell.xib */,
+			);
+			path = AlbumTableCell;
+			sourceTree = "<group>";
+		};
+		660CC29323140D04003AB894 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				660CC29423140D12003AB894 /* AlbumData.swift */,
+				660CC29623140F48003AB894 /* UserData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		660CC2982314107A003AB894 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				660CC2992314109A003AB894 /* ProfileViewController.swift */,
+				660CC29A2314109A003AB894 /* ProfileViewController.xib */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		660CC29D23141307003AB894 /* PhotosViewController */ = {
+			isa = PBXGroup;
+			children = (
+				660CC2A4231414F6003AB894 /* PhotosCollectionCell */,
+				660CC2A0231414C9003AB894 /* PhotosViewController.swift */,
+				660CC2A1231414C9003AB894 /* PhotosViewController.xib */,
+			);
+			path = PhotosViewController;
+			sourceTree = "<group>";
+		};
+		660CC2A4231414F6003AB894 /* PhotosCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				660CC2A523141521003AB894 /* PhotosCollectionCell.swift */,
+				660CC2A623141521003AB894 /* PhotosCollectionCell.xib */,
+			);
+			path = PhotosCollectionCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660CC2652313F1FA003AB894 /* MyOwnAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660CC2782313F1FC003AB894 /* Build configuration list for PBXNativeTarget "MyOwnAlbum" */;
+			buildPhases = (
+				660CC2622313F1FA003AB894 /* Sources */,
+				660CC2632313F1FA003AB894 /* Frameworks */,
+				660CC2642313F1FA003AB894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyOwnAlbum;
+			productName = AlodokterTest;
+			productReference = 660CC2662313F1FA003AB894 /* MyOwnAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660CC25E2313F1FA003AB894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yosua Hoo";
+				TargetAttributes = {
+					660CC2652313F1FA003AB894 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 660CC2612313F1FA003AB894 /* Build configuration list for PBXProject "MyOwnAlbum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 660CC25D2313F1FA003AB894;
+			productRefGroup = 660CC2672313F1FA003AB894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660CC2652313F1FA003AB894 /* MyOwnAlbum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660CC2642313F1FA003AB894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660CC29C2314109A003AB894 /* ProfileViewController.xib in Resources */,
+				660CC28D23140B85003AB894 /* AlbumViewController.xib in Resources */,
+				660CC2A823141521003AB894 /* PhotosCollectionCell.xib in Resources */,
+				660CC2742313F1FC003AB894 /* LaunchScreen.storyboard in Resources */,
+				660CC2712313F1FC003AB894 /* Assets.xcassets in Resources */,
+				660CC2A3231414C9003AB894 /* PhotosViewController.xib in Resources */,
+				660CC29223140BFE003AB894 /* AlbumTableCell.xib in Resources */,
+				660CC27F231406FF003AB894 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660CC2622313F1FA003AB894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660CC29F2314137A003AB894 /* HomeTabBarViewController.swift in Sources */,
+				660CC28C23140B85003AB894 /* AlbumViewController.swift in Sources */,
+				660CC28623140777003AB894 /* User.swift in Sources */,
+				660CC29B2314109A003AB894 /* ProfileViewController.swift in Sources */,
+				660CC27E231406FF003AB894 /* LoginViewController.swift in Sources */,
+				660CC29723140F48003AB894 /* UserData.swift in Sources */,
+				660CC29123140BFE003AB894 /* AlbumTableCell.swift in Sources */,
+				660CC26A2313F1FA003AB894 /* AppDelegate.swift in Sources */,
+				660CC29523140D12003AB894 /* AlbumData.swift in Sources */,
+				660CC2A2231414C9003AB894 /* PhotosViewController.swift in Sources */,
+				660CC28423140740003AB894 /* ModuleBuilder.swift in Sources */,
+				660CC2882314084A003AB894 /* Album.swift in Sources */,
+				660CC2A723141521003AB894 /* PhotosCollectionCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		660CC2722313F1FC003AB894 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660CC2732313F1FC003AB894 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		660CC2762313F1FC003AB894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		660CC2772313F1FC003AB894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		660CC2792313F1FC003AB894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZHR6JDHY4;
+				INFOPLIST_FILE = "$(SRCROOT)/MyOwnAlbum/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mister-Hoo.MyOwnAlbum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		660CC27A2313F1FC003AB894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZHR6JDHY4;
+				INFOPLIST_FILE = "$(SRCROOT)/MyOwnAlbum/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mister-Hoo.MyOwnAlbum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660CC2612313F1FA003AB894 /* Build configuration list for PBXProject "MyOwnAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660CC2762313F1FC003AB894 /* Debug */,
+				660CC2772313F1FC003AB894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660CC2782313F1FC003AB894 /* Build configuration list for PBXNativeTarget "MyOwnAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660CC2792313F1FC003AB894 /* Debug */,
+				660CC27A2313F1FC003AB894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660CC25E2313F1FA003AB894 /* Project object */;
+}
